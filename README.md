@@ -40,18 +40,7 @@ flowchart LR
     commit -->|Finally|creatpr((Create a Pull Request))
     
  ```
-
-
 Star the repository by pressing the topmost-right button to start your wonderful journey.
-
-
-## Awesome contributors 🤩
-<a href="https://github.com/CyberFunk007/Hacktoberfest2023/graphs/contributors">
-  <img src="https://contributors-img.web.app/image?repo=CyberFunk007/Hacktoberfest2023" />
-</a>
-
-[](https://contributors-img.web.app)
-
 
 ## Help Contributing Guides 👑
 
