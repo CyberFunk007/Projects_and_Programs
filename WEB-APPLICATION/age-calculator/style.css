@@ -1,0 +1,132 @@
+@font-face {
+    font-family: PoppinsItalic;
+    src: url(assets/fonts/Poppins-BoldItalic.ttf);
+    
+}
+@font-face {
+    font-family  : PoppinsRegular;
+    src : url(assets/fonts/Poppins-Regular.ttf);
+}
+@font-face {
+    font-family: PoppinsBold;
+    src: url(assets/fonts/Poppins-Bold.ttf);
+}
+@font-face {
+    font-family: PoppinsExtraBold;
+    src: url(assets/fonts/Poppins-ExtraBold.ttf);
+}
+@font-face {
+    font-family: PoppinsExtraBoldItalic;
+    src: url(assets/fonts/Poppins-ExtraBoldItalic.ttf);
+}
+:root {
+    --white : hsl(0, 0%, 100%);
+    --offWhite : hsl(0, 0%, 94%);
+    --lightgrey : hsl(0, 0%, 86%);
+    --smokeygrey : hsl(0, 1%, 44%);
+    --offblack :  hsl(0, 0%, 8%);
+
+    --purple : hsl(259, 100%, 65%);
+    --lightred  : hsl(0, 100%, 67%);
+
+}
+* {
+    margin : 0px;
+    padding : 0px;
+    box-sizing: border-box;
+}
+
+body {
+    height : 100vh;
+    width : 100vw;
+    padding : 20px;
+    font-size : 32px;
+    font-family: PoppinsItalic;
+    background-color: var(--offWhite);
+    position : relative;
+    text-align : center;
+}
+main {
+    position : absolute;
+    top : 50%;
+    left : 50%;
+    transform: translate(-50%,-50%);
+    height : 60%;
+    width : 50%;
+    background-color : var(--white);
+    padding : 20px;
+    border-radius: 16px;
+    border-bottom-right-radius: 100px;
+}
+
+.top {
+    display : flex;
+    align-items: center;
+    font-family: PoppinsRegular;
+    margin: 20px;
+}
+.topContainer {
+    width : 100%;
+    display : flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.title {
+    font-size : 15px;
+    font-family: PoppinsBold;
+    color : var(--smokeygrey)
+     
+}
+.input-box {
+    height : 60px;
+    width : 150px;
+    outline : none;
+    border : 1px solid lightgrey;
+    border-radius: 4px;
+    padding : 10px;
+    font-size: 32px;
+    font-family: PoppinsBold;
+    
+}
+.center  {
+    display : flex;
+    align-items: center;
+}
+.center hr {
+    width  : 85%;
+    display: inline-block;
+}   
+.submit {
+    height : 80px;
+    width : 80px;
+    border-radius: 50%;
+    background-color: var(--purple);
+    cursor : pointer;
+    outline : none;
+    border : none;
+}
+
+.bottom > * {
+    display : flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: PoppinsExtraBoldItalic;
+}
+.output {
+    color : var(--purple);
+    font-size : 60px;
+    font-weight: 700;
+    margin-right: 10px;
+    font-family: PoppinsExtraBold;
+}
+.attribution {
+    position : absolute;
+    font-size: 11px;
+    text-align: center;
+    bottom : 0;
+    left: 40%;
+  }
+
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
